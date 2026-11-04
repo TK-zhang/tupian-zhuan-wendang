@@ -1,0 +1,31 @@
+# 临时与缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE 与编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时数据与图片输入输出缓存 (避免敏感数据和大量大图提交)
+data/input/
+data/output/
+temp/
+cache/
+*.tmp
+.env
+.env.local
