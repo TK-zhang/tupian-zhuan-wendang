@@ -1,0 +1,32 @@
+{
+  "sample_id": "GS-04",
+  "file_name": "GS-04_glare_deadzone_8pt_table.png",
+  "rel_path": "images/GS-04_glare_deadzone_8pt_table.png",
+  "source_sha256": "2cf43dd929d5af211b8753c5e3289427bb7d82b74c1cca0a9e1337ebe1e6903c",
+  "dimensions": {
+    "width": 1240,
+    "height": 780
+  },
+  "difficulty": "P0-Hardest",
+  "degradation_tags": [
+    "specular_glare_deadzone",
+    "illumination_halo",
+    "8pt_dense_table",
+    "moire"
+  ],
+  "ground_truth": {
+    "glare_deadzone_bbox": [
+      179,
+      435,
+      251,
+      585
+    ],
+    "expected_review_ticket_type": "GLARE_OCCLUDED",
+    "expected_key_tokens": [
+      "node-sh-01",
+      "node-sh-04",
+      "9096",
+      "TLSv1.3 强制国密 SM2"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "GS-01",
+  "file_name": "GS-01_exif_rot90_code.jpg",
+  "rel_path": "images/GS-01_exif_rot90_code.jpg",
+  "source_sha256": "27bb0560e7e1be5c19685a1e0e6abb2798bc50b78c41c40fb80816f0a12a7a69",
+  "dimensions": {
+    "width": 760,
+    "height": 1180
+  },
+  "difficulty": "P0-Medium",
+  "degradation_tags": [
+    "exif_orientation_6",
+    "dark_ide_code",
+    "8pt_line_numbers"
+  ],
+  "ground_truth": {
+    "expected_exif_orientation": 6,
+    "expected_skew_deg": 0.0,
+    "expected_language": "python",
+    "expected_key_tokens": [
+      "check_gateway_health",
+      "9092",
+      "timeout=5.0",
+      "TimeoutError"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sample_id": "GS-07",
+  "file_name": "GS-07_scroll_frame_01.png",
+  "rel_path": "images/GS-07_scroll_frame_01.png",
+  "source_sha256": "e03bd5396ee4ec4830b3ba2ffbf15b65752d215c1e3b675c157b84e7aa58bc96",
+  "dimensions": {
+    "width": 1160,
+    "height": 520
+  },
+  "difficulty": "P0-Hard",
+  "degradation_tags": [
+    "scroll_stitching_sequence",
+    "bottom_edge_clipped"
+  ],
+  "ground_truth": {
+    "scroll_group_id": "SCROLL_GRP_01",
+    "virtual_canvas_y_offset_px": 0,
+    "viewport_height_px": 520
+  }
+}

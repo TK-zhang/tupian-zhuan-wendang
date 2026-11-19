@@ -1,0 +1,21 @@
+{
+  "sample_id": "GS-11",
+  "file_name": "GS-11_temporal_conflict_v2.png",
+  "rel_path": "images/GS-11_temporal_conflict_v2.png",
+  "source_sha256": "352f8efb44b9e8fe0b0b422fdc14b7fed822396159666570ca7544a17d1e955c",
+  "dimensions": {
+    "width": 1180,
+    "height": 620
+  },
+  "difficulty": "P0-Hard",
+  "degradation_tags": [
+    "temporal_state_override",
+    "converged_final"
+  ],
+  "ground_truth": {
+    "timestamp": "2026-11-19T14:05:40Z",
+    "config_key": "request.timeout.ms",
+    "config_value": "15000",
+    "expected_temporal_role": "CONVERGED_FINAL"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "sample_id": "GS-02",
+  "file_name": "GS-02_skew_8deg_config.png",
+  "rel_path": "images/GS-02_skew_8deg_config.png",
+  "source_sha256": "128f48971a77a544630fc0ff9891aa342cb9acf0bb5b343473f42772ac20efbb",
+  "dimensions": {
+    "width": 1200,
+    "height": 760
+  },
+  "difficulty": "P0-Medium",
+  "degradation_tags": [
+    "affine_skew_+8.5deg",
+    "table_grid",
+    "cn_en_mixed"
+  ],
+  "ground_truth": {
+    "expected_skew_deg": 8.5,
+    "table_rows": 5,
+    "table_cols": 4,
+    "expected_key_tokens": [
+      "eth0/1",
+      "VLAN 100",
+      "10.24.18.1",
+      "生产调度主网"
+    ]
+  }
+}

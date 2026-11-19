@@ -1,0 +1,60 @@
+{
+  "sample_id": "GS-03",
+  "file_name": "GS-03_perspective_moire_terminal.png",
+  "rel_path": "images/GS-03_perspective_moire_terminal.png",
+  "source_sha256": "8a17d5a1b8e8bd1c30a35ae3e216bc4e318c7925b367591b252858fafed1da02",
+  "dimensions": {
+    "width": 1240,
+    "height": 780
+  },
+  "difficulty": "P0-Hardest",
+  "degradation_tags": [
+    "perspective_keystone",
+    "high_freq_rgb_moire",
+    "sql_terminal",
+    "8pt_small_font"
+  ],
+  "ground_truth": {
+    "gt_forward_homography_3x3": [
+      [
+        0.9904175273380995,
+        -0.03327126933880947,
+        45.0
+      ],
+      [
+        0.030443213543743936,
+        0.8831276625611374,
+        35.0
+      ],
+      [
+        5.632809291084535e-05,
+        -6.09993643763712e-05,
+        1.0
+      ]
+    ],
+    "gt_inverse_homography_3x3": [
+      [
+        1.0112608476802516,
+        0.03487106371311212,
+        -46.72722537557025
+      ],
+      [
+        -0.03252407229074027,
+        1.1284867506938672,
+        -38.03345302120204
+      ],
+      [
+        -5.894634272189975e-05,
+        6.687275398275018e-05,
+        1.0003120390330893
+      ]
+    ],
+    "expected_language": "sql",
+    "expected_key_tokens": [
+      "10.24.18.92",
+      "5432",
+      "t_order_item",
+      "pay_status IN (1, 2, 4)"
+    ]
+  }
+}

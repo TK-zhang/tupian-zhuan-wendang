@@ -1,0 +1,25 @@
+{
+  "sample_id": "GS-12",
+  "file_name": "GS-12_dual_column_mixed_zh_en.png",
+  "rel_path": "images/GS-12_dual_column_mixed_zh_en.png",
+  "source_sha256": "b9f56ec9caf2e664a84d19534defb7fc329eaff8d4ff790cd2b3d46f07fea4c7",
+  "dimensions": {
+    "width": 1280,
+    "height": 860
+  },
+  "difficulty": "P0-Medium",
+  "degradation_tags": [
+    "dual_column_xy_cut",
+    "dehyphenation_concurrently",
+    "header_footer_noise",
+    "embedded_diagram"
+  ],
+  "ground_truth": {
+    "is_multi_column": true,
+    "expected_dehyphenated_word": "concurrently",
+    "header_footer_filtered": [
+      "绝密工程内部规范 — 第 12 页",
+      "- 12 -"
+    ]
+  }
+}

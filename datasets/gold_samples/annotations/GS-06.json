@@ -1,0 +1,50 @@
+{
+  "sample_id": "GS-06",
+  "file_name": "GS-06_nested_merged_table.png",
+  "rel_path": "images/GS-06_nested_merged_table.png",
+  "source_sha256": "43d77516d3836c6dec3e6a5768917bd4d6b57e7fb0e365aeb0a457924ebed015",
+  "dimensions": {
+    "width": 1240,
+    "height": 780
+  },
+  "difficulty": "P0-Hard",
+  "degradation_tags": [
+    "multi_level_header",
+    "colspan_2",
+    "rowspan_2"
+  ],
+  "ground_truth": {
+    "table_rows": 5,
+    "table_cols": 4,
+    "merged_cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "rowspan": 2,
+        "colspan": 1,
+        "text": "环境类型"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "rowspan": 1,
+        "colspan": 2,
+        "text": "算力配置"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "rowspan": 2,
+        "colspan": 1,
+        "text": "离线授权方式"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "rowspan": 2,
+        "colspan": 1,
+        "text": "政企信创机房"
+      }
+    ]
+  }
+}

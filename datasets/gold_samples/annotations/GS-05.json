@@ -1,0 +1,21 @@
+{
+  "sample_id": "GS-05",
+  "file_name": "GS-05_implicit_borderless_table.png",
+  "rel_path": "images/GS-05_implicit_borderless_table.png",
+  "source_sha256": "ccb8928e8d38573058371c908ed455eb19319fcc7e082f7e9017f9983ac39174",
+  "dimensions": {
+    "width": 1240,
+    "height": 760
+  },
+  "difficulty": "P0-Hard",
+  "degradation_tags": [
+    "implicit_borderless_table",
+    "whitespace_columns",
+    "inspection_sheet"
+  ],
+  "ground_truth": {
+    "table_rows": 4,
+    "table_cols": 4,
+    "has_inner_vertical_lines": false
+  }
+}
